@@ -1,0 +1,58 @@
+.nonevalid {
+    background-color: rgb(255, 81, 81);
+    color: black;
+    border: 1px solid black;
+}
+
+.valid {
+    background-color: rgb(127, 255, 182);
+}
+
+
+body {
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 0;
+}
+
+.Myform {
+  width: 100%;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+span {
+  display: block;
+  margin-bottom: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+input {
+  width: 100%; 
+  padding: 8px;
+  box-sizing: border-box; 
+  border: 2px solid #dddddd;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  transition: background-color 0.2s;
+}
+
+input[type="submit"]:hover {
+  background-color: #a8a8a8;
+}
