@@ -1,6 +1,7 @@
 import React from "react";
 import "./TaskVakid1.css"
 
+
 export function UserForm ()
 {
       const [state, setState] = React.useState( {name: '', age:  0, nameValid: false, ageValid: false, email:'', emailValid:false, tell:'', tellValid:false});
@@ -77,7 +78,13 @@ export function UserForm ()
                       <input type="text" value={state.tell} onChange={onTellChange} />
                       <span className={tellvalid}> Больше 12 символов</span>
                   </p>
+                  <p className = "password-reset">Востановить пароль</p>
                   <input type="submit" value="Отправить" />
+                  <div className="icons">
+                        <img src="wk.png" alt="VK" className="social-img" />
+                        <img src="twitter.png" alt="Twitter" className="social-img" />
+                        <img src="facebook.png" alt="Facebook" className="social-img" />
+                    </div>
               </form>
           );
 }
