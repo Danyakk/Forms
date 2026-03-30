@@ -11,13 +11,13 @@ import { CustomTextInput2 } from './Components/Task6Ref3';
 function App() {
   return (
     <div>
-      <Myform></Myform>
+      {/* <Myform></Myform> */}
 
     {/* <NameForm/> */}
     {/* <EssayForm/> */}
 
     {/* <FlavorForm/> */}
-    {/* <UserForm /> */}
+    <UserForm />
 
     {/* <FileInput/> */}
     {/* <CustomTextInput/> */}
